@@ -1,0 +1,78 @@
+body {
+    padding: 0em 10em;
+}
+
+
+.header {
+    
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.top > div {
+    flex: 1;    
+}
+
+.top-right {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pics-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.quote-sign {
+    margin-left: auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-text {
+    /* flex: 1; */
+}
+
+.footer-button {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    /* flex: 1; */
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
