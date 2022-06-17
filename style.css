@@ -1,19 +1,36 @@
 body {
-    padding: 0em 10em;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .header {
-    
+    padding: 1em 10em;
+    background-color: #1f2937;
+
 }
 
 .top {
+    padding: 4em 10em;
     display: flex;
     flex-direction: row;
+    gap: 2em;
+    background-color: #1f2937;
 }
 
 .top > div {
     flex: 1;    
+}
+
+.hero {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-rest {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .top-right {
@@ -24,49 +41,102 @@ body {
 }
 
 .pics {
+    padding: 0em 14em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
 .pics-cards {
     display: flex;
     flex-direction: row;
+    gap: 2em;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+.quote {
+    padding: 1em 5em;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+
 }
 
 .quote-sign {
-    margin-left: auto;
+    text-align: right;
+    font-weight: 700;
 }
 
 .footer {
+    border-radius: 10px;
+    margin: 2em 10em;
+    padding: 2em 4em;
     display: flex;
     flex-direction: row;
+    background-color: #3882f6;
 }
 
 .footer-text {
-    /* flex: 1; */
+    color: #f9faf8;
+}
+
+.footer-text > p {
+    margin: 0px;
+}
+
+h3 {
+    margin: 0%;
+    padding: 0%;
 }
 
 .footer-button {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: center;
+}
+
+.footer-button > button {
+    border: 1px solid white;
 }
 
 button {
-    /* flex: 1; */
+    margin-left: auto;
     align-items: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+    border: 0px;
+    padding: 0.5em 2em;
 }
 
 ul {
+    margin: 0%;
+    padding: 0px;
     display: flex;
     flex-direction: row;
     gap: 1em;
+    background-color: #1f2937;
 }
 
 .logo {
+    padding: 0px;
     margin-right: auto;
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 li {
@@ -75,4 +145,14 @@ li {
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.true-footer {
+    padding: 1em;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
 }
